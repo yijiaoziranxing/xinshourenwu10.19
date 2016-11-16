@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+
+}
+.img-box a img:active{
+    max-width: 95%;
+
+}
+.container{
+    width: 100%;
+    overflow: auto;
+}
+.img-box a,.img-box b{
+    display: block;
+    position: absolute;
+}
+.img-box1 a{
+    max-width: 20%;
+    margin-left:9%;
+    margin-top:-17%;
+}
+.img-box1 b{
+    max-width: 15%;
+    margin-left:55%;
+    margin-top:-27%;
+}
+
+.img-box2 a{
+    max-width: 20%;
+    margin-left:45%;
+    margin-top:-19%;
+}
+.img-box2 b{
+    max-width: 15%;
+    margin-left:30%;
+    margin-top:-29%;
+}
+.img-box3 a{
+    max-width: 20%;
+    margin-left:9%;
+    margin-top:-35%;
+}
+.img-box3 b{
+    max-width: 15%;
+    margin-left:55%;
+    margin-top:-45%;
+}
+.img-box b{
+    display: none;
+}
